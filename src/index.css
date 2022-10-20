@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/*reset*/
+* {
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+    background-image:url(./assets/img/jed-villejo-bEcC0nyIp2g-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(200, 112, 92, 0.911);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    border: none;
+}
+
+input {
+    outline: none;
+}
